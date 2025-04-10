@@ -84,7 +84,9 @@ p {
     display: block;
     margin: auto;
 }
+
 .card.small-card{
+    display: none;
     width: 400px;
     height: 500px;
     float:left;
@@ -100,12 +102,29 @@ p {
     padding-right: 10px;
 }
 
+button {
+    background-color: #00838F; 
+            color: white; 
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+}
+
+button:hover {
+    background-color: #333333;
+}
+
 footer {
     background-color: #006064; 
     color: white;
     text-align: center;
+    justify-content: center;
     padding: 10px;
     margin-top: auto;
     font-family: 'Roboto', sans-serif;
+    display: flex; 
+    align-items: center;
 }
 
